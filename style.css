@@ -1,24 +1,20 @@
-.navbar-default{
-	background-color: #2C3E50;
-}
-
-.navbar-default .navbar-brand{
-	color: white;
-}
-
-.navbar-default .navbar-nav > li > a{
-	color: white;
-}
-
-.jumbotron{
-	background-color: #ECF0F1;
-	color: #2C3E50;
-}
-
 body{
-	padding-top: 80px;
+	font-family: Consolas;
 }
 
-h1{
-	font-weight: 600;
+.navbar-default{
+	margin: 0;
+	border-radius: 0;
+}
+
+.full-size{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.head-img{
+	padding: 25% 0;
+	background-image: url("./img/whitemacbook.jpg");
+	background-size: cover;
 }
