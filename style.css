@@ -9,12 +9,17 @@ body{
 .navbar-default{
 	margin: 0;
 	border-radius: 0;
+	border-bottom: 0;
+	border-top: 5px solid #ed3200;
+	background-color: #000;
 }
 
-.full-size{
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
 }
 
 #hero{
@@ -38,3 +43,9 @@ body{
 	margin-left: 5px;
 	margin-right: 5px;
 }*/
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #ed3200;
+	font-weight: bold;
+	color: #fff;
+}

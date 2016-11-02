@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="jquery.min.js"></script>
 	<title>Llorch</title>
 </head>
 <body>
@@ -45,7 +46,23 @@
 <div class="container">
 </div>
 
-<script type="text/javascript" src="jquery.min.js"></script>
+<script>
+  $(".nav a").on("click", function(){
+    $(".nav").find(".active").removeClass("active");
+    $(this).parent().addClass("active");
+  });
+</script>
+
+<!-- <script>
+  $(function(){
+    $('#nav li a').click(function(){
+      $('#nav li').removeClass();
+      $($(this).attr('href')).addClass('active');
+    });
+  });
+</script>
+ -->
 <script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
 </body>
 </html>
