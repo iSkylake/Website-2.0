@@ -28,7 +28,7 @@ body{
 	background-image: url("./img/whiteheader.jpg");
 	background-size: cover;
 	position: relative;
-	background-position: center;
+	background-position: left;
 	height: 100vh;
 	padding: 15% 0;
 }
@@ -36,7 +36,7 @@ body{
 .header{
 	position: absolute;
 	top: 50%;
-	text-align: left;
+	text-align: justify;
 	width: 30%;
 	font-size: 60px;
 	transform: translate(0,-50%);
@@ -87,4 +87,16 @@ body{
 
 .about{
 	padding: 60px 0;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.margins{
+	margin-bottom: 20px;
+}
+
+.title{
+	border-bottom: 3px solid #ed3200;
+	display: inline-block;
+	font-size: 20px;
 }
