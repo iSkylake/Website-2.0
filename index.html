@@ -51,6 +51,13 @@
     $(".nav").find(".active").removeClass("active");
     $(this).parent().addClass("active");
   });
+
+  $(".nav a").hover(function(){
+    $(this).parent().addClass("active-hover");
+    }, function(){
+    $(this).parent().removeClass("active-hover")
+  });
+
 </script>
 
 <!-- <script>
