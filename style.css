@@ -21,24 +21,37 @@ body{
 
 .navbar-default .navbar-nav > li > a{
 	color: #fff;
+	font-size: 16px;
 }
 
 #hero{
-	background-image: url("./img/whitemacbook.jpg");
+	background-image: url("./img/whiteheader.jpg");
 	background-size: cover;
 	position: relative;
-	/*background-position: center;*/
+	background-position: center;
 	height: 100vh;
+	padding: 15% 0;
 }
 
-/*.header{
+.header{
 	position: absolute;
 	top: 50%;
-	text-align: center;
-	width: 100%;
-	font: 36px;
+	text-align: left;
+	width: 30%;
+	font-size: 60px;
 	transform: translate(0,-50%);
-}*/
+	margin-left: 15%;
+	float: left;
+}
+
+.highlight{
+	color: #ed3200;
+}
+
+.my-pic{
+	width: 400px;
+	height: 400px;
+}
 
 /*.container-fluid{
 	margin-left: 5px;
@@ -70,4 +83,8 @@ body{
 
 .navbar-default .navbar-toggle .icon-bar{
 	background-color: #fff;
+}
+
+.about{
+	padding: 60px 0;
 }
