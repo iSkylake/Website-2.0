@@ -51,8 +51,14 @@ body{
 	color: #fff;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active-hover > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+/*.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active-hover > a:hover, .navbar-default .navbar-nav > .active > a:focus{
 	background-color: #ed3200;
 	font-weight: bold;
 	color: #fff;
+}*/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-defaul .navbar-nav > li > a:focus{
+	background-color: #ed3200;
+	font-weight: bold;
+	color: #fff;	
 }
