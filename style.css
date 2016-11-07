@@ -86,7 +86,7 @@ body{
 }
 
 .about{
-	padding: 60px 0;
+	margin: 60px 0;
 	font-size: 16px;
 	text-align: justify;
 }
@@ -115,4 +115,8 @@ body{
 	font-size: 18px;
 	font-weight: bold;
 	color: #ed3200;
+}
+
+.content{
+	font-size: 16px;
 }
