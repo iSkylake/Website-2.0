@@ -79,7 +79,8 @@ body{
 .navbar-default .navbar-nav > li > a:hover, .navbar-defaul .navbar-nav > li > a:focus{
 	background-color: #ed3200;
 	font-weight: bold;
-	color: #fff;	
+	color: #fff;
+	transition: 0.4s;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
@@ -127,12 +128,23 @@ body{
 	font-size: 16px;
 }
 
+/*.horizontal-center{
+	margin: 0 auto;
+}*/
+
 .portfolio-img-container{
-	width: 450px;
-	height: 450px;
-	border: 5px solid black;
-	border-radius: 10px;
+	width: 350px;
+	height: 350px;
+	border: 5px solid #808080;
 }
+
+/*.portfolio-img-container{
+	width: 350px;
+	height: 350px;
+	border-radius: 10px;
+	margin: 0;
+	border-radius: 5px solid #f7f7f9;
+}*/
 
 .portfolio-img{
 	width: 100%;
@@ -143,12 +155,21 @@ body{
 	transform: translateY(-50%);
 }
 
-.portfolio-img-border{
-	border-radius: 10px;
-	background-color: black;
+.vertical-center{
+	margin: 0 auto;
 }
 
 .footer{
-	padding: 50px 0;
+	padding: 20px 0;
 	background-color: #000;
 }
+
+.contact{
+	color: #fff;
+}
+
+.fa{
+	font-size: 20px;
+	color: #fff;
+}
+
