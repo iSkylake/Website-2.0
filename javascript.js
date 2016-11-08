@@ -11,8 +11,10 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     if (target.length) {
       $('html, body').animate({
         scrollTop: target.offset().top - 80
-      }, 1000);
+      }, 700);
       return false;
     }
   }
 });
+
+// $('body').scrollspy({ target: '.navbar' })
