@@ -11,7 +11,7 @@ body{
 	border-radius: 0;
 	border-bottom: 0;
 	border-top: 5px solid #ed3200;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.9);
 	font-weight: bold;
 }
 
@@ -140,4 +140,9 @@ body{
 .portfolio-img-border{
 	border-radius: 10px;
 	background-color: black;
+}
+
+.footer{
+	padding: 50px 0;
+	background-color: #000;
 }
