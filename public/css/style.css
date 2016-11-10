@@ -1,5 +1,5 @@
 body{
-	font-family: Consolas;
+	font-family: Roboto;
 	width: 100%;
 	height: 100%;
 	margin: 0px;
@@ -23,15 +23,16 @@ body{
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
 	color: #fff;
+	font-size: 20px;
 }
 
 .navbar-default .navbar-nav > li > a{
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 #hero{
-	background-image: url("../img/whiteheader.jpg");
+	background-image: url("../img/Beta4.jpg");
 	background-size: cover;
 	position: relative;
 	background-position: left;
@@ -50,8 +51,14 @@ body{
 	float: left;
 }
 
+h1{
+	color: #fff;
+	text-shadow: 2px 2px 2px black;
+}
+
 .highlight{
-	color: #ed3200;
+	color: red;
+	font-weight: bold;
 }
 
 .my-pic{
