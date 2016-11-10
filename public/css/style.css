@@ -43,7 +43,6 @@ body{
 .header{
 	position: absolute;
 	top: 50%;
-	text-align: justify;
 	width: 30%;
 	font-size: 60px;
 	transform: translate(0,-50%);
@@ -159,9 +158,9 @@ h1{
 	border-radius: 10px;
 }
 
-.portfolio-border{
-	border: solid #000 4px;
-	border-radius: 10px;
+.height-img{
+	width: 500px;
+	height: 100%;
 }
 
 .fa{
@@ -169,3 +168,6 @@ h1{
 	color: #fff;
 }
 
+.icon-space{
+	margin: 0 5px;
+}
