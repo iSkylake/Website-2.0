@@ -165,7 +165,7 @@ h1{
 }
 
 .fa{
-	font-size: 20px;
+	font-size: 23px;
 	color: #fff;
 }
 
@@ -320,4 +320,8 @@ transform:translatey(0);
 .hovereffect:hover a.info {
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
+}
+
+a.info > i{
+	font-size: 30px;
 }
