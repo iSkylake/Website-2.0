@@ -50,6 +50,14 @@ body{
 	float: left;
 }
 
+.parallax{
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1{
 	color: #fff;
 	text-shadow: 2px 2px 2px black;
