@@ -48,6 +48,7 @@ body{
 	transform: translate(0,-50%);
 	margin-left: 15%;
 	float: left;
+	animation-delay: 0.3s;
 }
 
 .parallax{
