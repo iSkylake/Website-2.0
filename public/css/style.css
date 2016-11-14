@@ -42,7 +42,7 @@ body{
 
 .header{
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	width: 30%;
 	font-size: 60px;
 	transform: translate(0,-50%);
