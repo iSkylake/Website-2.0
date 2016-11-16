@@ -20,4 +20,22 @@ $('a[href*="#"]:not([href="#"])').click(function() {
   }
 });
 
+function Scroll(){
+var top = document.getElementById('header');
+var ypos = window.scrollY;
+if(ypos > 400) {
+  top.style.opacity = "0";
+}
+else if(ypos > 200){
+  top.style.opacity = "0.3";
+}
+else if(ypos > 100){
+  top.style.opacity = "0.6";
+}
+else{
+  top.style.opacity = "1";
+}
+}
+  window.addEventListener("scroll",Scroll);
+
 // $('body').scrollspy({ target: '.navbar' })

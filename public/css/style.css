@@ -42,7 +42,7 @@ body{
 }
 
 .header{
-	position: absolute;
+	position: fixed;
 	top: 40%;
 	width: 30%;
 	font-size: 60px;
