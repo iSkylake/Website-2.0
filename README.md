@@ -10,3 +10,4 @@ Things to do:
 - Circular graph with 0 - 100% in technologies
 - ~~Hover animation to show information in my projects~~
 - Move website to React
+- Mobile friendly
