@@ -11,3 +11,4 @@ Things to do:
 - ~~Hover animation to show information in my projects~~
 - Move website to React
 - Mobile friendly
+- Add more technologies and show effect
