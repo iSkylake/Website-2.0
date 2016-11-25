@@ -4,7 +4,7 @@
 // });
 
 // Disable blog anchor
-$('#blog').removeAttr('href')
+// $('#blog').removeAttr('href')
 
 // Smooth scroll
 $('a[href*="#"]:not([href="#"])').click(function() {
