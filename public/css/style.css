@@ -105,6 +105,11 @@ h1{
 	border-color: #fff;
 }
 
+.blog-active{
+	background-color: #ed3200;
+	pointer-events: none;
+}
+
 /*.navbar-default .navbar-toggle .icon-bar{
 	background-color: #fff;
 }*/
