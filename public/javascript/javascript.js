@@ -41,6 +41,9 @@
 // $('body').scrollspy({ target: '.navbar' })
 
 $(document).ready(function(){
+  // Skrollr
+  var s = skrollr.init();
+
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 120});   
 
