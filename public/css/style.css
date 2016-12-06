@@ -361,10 +361,12 @@ li:hover .tooltiptext {
 	transition-delay:.2s;
 }
 
+/* Mobile size for portfolio */
+
 @media only screen and (max-width: 560px){
 	.portfolio-container{
-		width: 355px;
-		height: 266px;
+		width: 300px;
+		height: 225px;
 		padding: 0;
 		overflow: hidden;
 	}
@@ -376,7 +378,7 @@ li:hover .tooltiptext {
 	}
 
 	.height-img{
-		width: 355px;
+		width: 300px;
 		height: 100%;
 	}
 
