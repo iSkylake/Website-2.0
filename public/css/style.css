@@ -361,6 +361,40 @@ li:hover .tooltiptext {
 	transition-delay:.2s;
 }
 
+@media only screen and (max-width: 560px){
+	.portfolio-container{
+		width: 355px;
+		height: 266px;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	.portfolio-img{
+		width: 100%;
+		max-height: 266px;
+	/*	border-radius: 10px;*/
+	}
+
+	.height-img{
+		width: 355px;
+		height: 100%;
+	}
+
+	.fa{
+		font-size: 15px;
+		color: #fff;
+	}
+
+	.hovereffect h2 {
+		font-size: 40px;
+	}
+
+	.hovereffect a.info {
+		margin-top: 50px;
+	}
+}	
+}
+
 /* Social media icons */
 a.info > i{
 	font-size: 30px;
