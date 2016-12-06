@@ -45,11 +45,34 @@ body{
 	position: fixed;
 	top: 40%;
 	width: 30%;
-	font-size: 60px;
 	transform: translate(0,-50%);
 	margin-left: 15%;
 	float: left;
 	animation-delay: 0.3s;
+}
+
+/* Header Introduction Message Size */
+
+#hero, .header, h1{
+	font-size: 36px;
+}
+
+@media only screen and (max-width: 1160px){
+	#hero, .header, h1{
+	font-size: 30px;
+}	
+}
+
+@media only screen and (max-width: 960px){
+	#hero, .header, h1{
+	font-size: 25px;
+}	
+}
+
+@media only screen and (max-width: 960px){
+	#hero, .header, h1{
+	font-size: 20px;
+}	
 }
 
 /* Create the parallax scrolling effect */
