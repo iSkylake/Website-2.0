@@ -12,3 +12,5 @@ Things to do:
 - Move website to React
 - Mobile friendly
 - Add more technologies and show effect
+- Contact form with email
+- Modify footer
