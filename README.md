@@ -1,6 +1,6 @@
 # Website-2.0
 
-Live: https://www.llorch.com
+Live: http://www.llorch.com
 
 This is my new website, trying to make it single web page and more stylish than the last one (called Portfolio).
 
