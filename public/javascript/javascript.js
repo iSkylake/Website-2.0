@@ -42,7 +42,12 @@
 
 $(document).ready(function(){
   // Skrollr
-  var s = skrollr.init();
+  var s = skrollr.init({
+    mobileCheck: function(){
+      //hack - forces mobile version to be off
+      return false;
+    }
+  });
 
   // Add scrollspy to <body>
   $('body').scrollspy({target: ".navbar", offset: 120});   
