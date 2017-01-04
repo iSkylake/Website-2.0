@@ -15,3 +15,5 @@ Things to do:
 - Add more technologies and show effect
 - Contact form with email
 - Modify footer
+- Implement gzip
+- Add Memcached
