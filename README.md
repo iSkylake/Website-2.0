@@ -17,3 +17,4 @@ Things to do:
 - Modify footer
 - Implement gzip
 - Add Memcached
+- Use media query
