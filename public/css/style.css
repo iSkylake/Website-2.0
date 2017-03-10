@@ -369,6 +369,15 @@ li:hover .tooltiptext {
 
 /* Mobile size for portfolio */
 
+@media only screen and (max-width: 980px){
+	.row{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+}
+
 @media only screen and (max-width: 560px){
 	.portfolio-container{
 		width: 300px;
